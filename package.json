@@ -1,0 +1,28 @@
+{
+  "name": "cursor-mini",
+  "version": "1.0.0",
+  "description": "An intelligent Node.js command-line application powered by Google's Generative AI that assists users by executing terminal commands and automating project workflows through natural language conversation.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-Saurabh-K/Cursor-Mini.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dev-Saurabh-K/Cursor-Mini/issues"
+  },
+  "homepage": "https://github.com/Dev-Saurabh-K/Cursor-Mini#readme",
+  "dependencies": {
+    "@google/genai": "^2.0.1",
+    "child_process": "^1.0.2",
+    "dotenv": "^17.4.2",
+    "os": "^0.1.2",
+    "readline-sync": "^1.4.10",
+    "util": "^0.12.5"
+  }
+}
